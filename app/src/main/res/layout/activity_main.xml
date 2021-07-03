@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_reactive">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Create"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/ganden" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textSize="20dp"
+            android:textColor="@color/ganden"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="47dp"/>
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_menu_24"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cutom_edittext"
+        android:hint="  Title"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/cutom_edittext"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="  Description"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Remind"
+        android:textColor="@color/ganden"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"/>
+
+
+    <TextView
+        android:id="@+id/tvEditHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="35dp"
+        android:textColor="@color/ganden"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/tvEditDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2/1/2001"
+        android:textSize="35dp"
+        android:textColor="@color/ganden"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type : "
+        android:textColor="@color/ganden"
+        android:textSize="18dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags : "
+        android:textColor="@color/ganden"
+        android:textSize="18dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvEditTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/ganden"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold"
+        android:text="Android,Vtc,Game"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weeks : "
+        android:textColor="@color/ganden"
+        android:textSize="18dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tvEditWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/ganden"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        android:text="Monday"
+        />
+
+
+    <Button
+        android:id="@+id/btTune"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tune"
+        android:background="@drawable/custom_reactive"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"/>
+
+    <FrameLayout
+        android:id="@+id/fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <FrameLayout
+        android:id="@+id/fragmentMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"/>
+
+
+
+</RelativeLayout>
+
+
+
+
+</layout>

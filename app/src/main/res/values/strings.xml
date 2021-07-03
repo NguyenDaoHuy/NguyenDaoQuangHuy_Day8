@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Day6_NguyenDaoQuangHuy</string>
+    <string name="Create">Create New Note</string>
+    <string name="Remind">Remind me at:</string>
+</resources>
